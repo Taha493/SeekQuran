@@ -1,0 +1,74 @@
+/* Arabic Font - Amiri supports Arabic diacritics (zabr, zer, pesh) */
+@font-face {
+    font-family: 'Amiri';
+    src: url('../../public/fonts/amiri-regular.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* Urdu Nastaleeq Font - Jameel Noori Nastaleeq */
+  @font-face {
+    font-family: 'Jameel Noori Nastaleeq';
+    src: url('../../public/fonts/jameel-noori-nastaleeq.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+    font-display: swap;
+  }
+  
+  /* CSS classes for different text types */
+  
+  .arabic-text {
+    font-family: 'Amiri', serif;
+    direction: rtl;
+    text-align: right;
+    font-size: 28px;
+    line-height: 2;
+    padding: 20px;
+    margin-bottom: 15px;
+    background-color: #f8f9fa;
+    border-radius: 8px;
+    word-spacing: 5px;
+  }
+  
+  .urdu-text {
+    font-family: 'Jameel Noori Nastaleeq', serif;
+    direction: rtl;
+    text-align: right;
+    font-size: 20px;
+    line-height: 2;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .english-text {
+    font-family: 'Georgia', serif;
+    direction: ltr;
+    text-align: left;
+    font-size: 18px;
+    line-height: 1.7;
+    padding: 15px;
+    margin-bottom: 15px;
+    background-color: #f0f0f0;
+    border-radius: 8px;
+  }
+  
+  .tafseer-container {
+    border-left: 4px solid #28a745;
+    padding-left: 15px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
+  .verse-key {
+    font-weight: bold;
+    font-size: 16px;
+    color: #6c757d;
+    margin-bottom: 10px;
+    display: inline-block;
+    padding: 5px 10px;
+    background-color: #e9ecef;
+    border-radius: 4px;
+  }
