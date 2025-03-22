@@ -4,7 +4,7 @@ import axios from "axios";
 const API_BASE_URL = "http://localhost:5000/api";
 
 // API key for Gemini (in a real app, this should be stored securely)
-const GEMINI_API_KEY = "AIzaSyBTRbTS4FqpBgrJ05dqfgp4g4yxxcdtxes";
+const GEMINI_API_KEY = "YOUR_API_KEY";
 
 /**
  * Search Quran by keywords
